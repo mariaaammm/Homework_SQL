@@ -3,11 +3,11 @@ CREATE DATABASE Homework;
 USE Homework;
 
 CREATE TABLE Company (
-    CompanyName VARCHAR(255),
+    CompanyName VARCHAR(100),
     Industry VARCHAR(100),
-    Website VARCHAR(255),
-    Address VARCHAR(255),
-    ContactEmail VARCHAR(255),
+    Website VARCHAR(70),
+    Address VARCHAR(100),
+    ContactEmail VARCHAR(50),
     PhoneNumber VARCHAR(20)
 );
 
